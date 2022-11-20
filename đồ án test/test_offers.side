@@ -1,0 +1,95 @@
+{
+  "id": "e1c35217-9ab4-4c0f-adad-d5e27b76ff5d",
+  "version": "2.0",
+  "name": "webb",
+  "url": "https://phptravels.net",
+  "tests": [{
+    "id": "1c0938d6-295f-40e7-b363-e479f2f3fca8",
+    "name": "test_offer",
+    "commands": [{
+      "id": "3d2fabec-39c9-4afa-bd59-ec367405cc1b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a61f87c5-a1d9-42df-9173-7974070779a2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4895732a-1a2f-4f7b-91f5-3899b781181a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Offers",
+      "targets": [
+        ["linkText=Offers", "linkText"],
+        ["css=.active_offers", "css:finder"],
+        ["xpath=//a[contains(text(),'Offers')]", "xpath:link"],
+        ["xpath=//body[@id='fadein']/header/div/div/div/div/div/div[2]/div/div/nav/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://phptravels.net/offers')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Offers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "90119273-446a-4162-9d51-ee6ecdb19890",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Offers",
+      "targets": [
+        ["linkText=Offers", "linkText"],
+        ["css=.active_offers", "css:finder"],
+        ["xpath=//a[contains(text(),'Offers')]", "xpath:link"],
+        ["xpath=//body[@id='fadein']/header/div/div/div/div/div/div[2]/div/div/nav/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://phptravels.net/offers')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Offers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e6daa08-07a2-4358-8a5f-dc644cb2e75f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Offers",
+      "targets": [
+        ["linkText=Offers", "linkText"],
+        ["css=.active_offers", "css:finder"],
+        ["xpath=//a[contains(text(),'Offers')]", "xpath:link"],
+        ["xpath=//body[@id='fadein']/header/div/div/div/div/div/div[2]/div/div/nav/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://phptravels.net/offers')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Offers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c7bb050-5e6b-4cd2-9996-9211a411e849",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Hotels Deals",
+      "targets": [
+        ["linkText=Hotels Deals", "linkText"],
+        ["css=.col-lg-4:nth-child(1) .author__title", "css:finder"],
+        ["xpath=//a[contains(text(),'Hotels Deals')]", "xpath:link"],
+        ["xpath=//body[@id='fadein']/section[2]/div/div/div/div/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://phptravels.net/offers/hotels-deals/2')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Hotels Deals')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "256b94e5-1435-470c-8c43-53ea0f81908d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://phptravels.net/"],
+  "plugins": []
+}

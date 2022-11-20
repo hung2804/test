@@ -1,0 +1,89 @@
+{
+  "id": "e1c35217-9ab4-4c0f-adad-d5e27b76ff5d",
+  "version": "2.0",
+  "name": "webb",
+  "url": "https://phptravels.net",
+  "tests": [{
+    "id": "c5b7811d-affe-4bf5-9c22-efa40733a517",
+    "name": "test_doingonngu",
+    "commands": [{
+      "id": "57a485ef-8c22-48fe-9836-2aa8a6ab7478",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98771843-2088-47eb-bb0d-5bf403e31a62",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "97d99d29-56e2-4e95-946d-aa68e060209f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=languages",
+      "targets": [
+        ["id=languages", "id"],
+        ["css=#languages", "css:finder"],
+        ["xpath=//button[@id='languages']", "xpath:attributes"],
+        ["xpath=//body[@id='fadein']/header/div/div/div/div/div/div[2]/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18dc221a-2a55-44a2-a0eb-999434258a9d",
+      "comment": "",
+      "command": "click",
+      "target": "id=languages",
+      "targets": [
+        ["id=languages", "id"],
+        ["css=#languages", "css:finder"],
+        ["xpath=//button[@id='languages']", "xpath:attributes"],
+        ["xpath=//body[@id='fadein']/header/div/div/div/div/div/div[2]/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b1a427b-7e57-4957-a59a-d519048951db",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=languages",
+      "targets": [
+        ["id=languages", "id"],
+        ["css=#languages", "css:finder"],
+        ["xpath=//button[@id='languages']", "xpath:attributes"],
+        ["xpath=//body[@id='fadein']/header/div/div/div/div/div/div[2]/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd75947a-002f-4c80-9b59-13531a2b8cbc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Khmer",
+      "targets": [
+        ["linkText=Korean", "linkText"],
+        ["css=.show > li:nth-child(4) > .dropdown-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Korean')]", "xpath:link"],
+        ["xpath=//body[@id='fadein']/header/div/div/div/div/div/div[2]/div/div[2]/div/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://phptravels.net/lang-kr')]", "xpath:href"],
+        ["xpath=//div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Korean')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "256b94e5-1435-470c-8c43-53ea0f81908d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://phptravels.net/"],
+  "plugins": []
+}
